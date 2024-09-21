@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Rupanjana Choudhury</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Rupanjana Choudhury</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section-container">
+        <div class="section__pic-container profile">
+          <img 
+            src="./assets/picture1.jpeg" 
+            alt="Rupanjana Choudhury profile picture" 
+            class="profile"
+          />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Rupanjana Choudhury </h1>
+          <p class="section__text__p2">Aspiring Web Developer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/resume.pdf')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+        <div id="socials-container">
+            <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/rupanjanac/', '_blank');"
+          />
+          
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/rupanjana15', '_blank');"
+          />
+        </div>
+        </div>
+      </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#about'"
+    />
+    </section>
+    <section id="about">
+      <p class="section__text__p1 ">Get To Know More</p>
+      <h1 class="title hello">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/picture3.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon-noarrow"
+              />
+              <h3>Experience</h3>
+              <p>Former IT Intern At <br /> Taghleef Industries</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon-noarrow"
+              />
+              <h3>Education</h3>
+              <p>B.Tech <br />CSE<br /> Vellore Institute of Technology , Vellore</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi &#9829; 
+              So I am a final year cse student and this is my little get to know me. I aspire to be a fullstack developer.
+              I am diving into the world of technology , passionate about learning new things and 
+              exploring the latest trends in the field. I’ve had the chance to develop my leadership skills through group projects and events, 
+              where I enjoy bringing people together to achieve common goals. 
+              <br><br>
+              My curiosity keeps me motivated to try out new programming languages and tools. 
+              I believe that collaboration and creativity can lead to amazing solutions, and I’m excited to share my journey and contribute to meaningful 
+              projects in the tech community.
+
+              
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1"> My Personal</p>
+      <h1 class="title">TechStack</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C/C++</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Swift</h3>
+                </div>
+              </article>
+              
+            
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Core Subjects</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Database and Management Systems</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Structures and Algorithms</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Operating Systems</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Information Security</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Development</h2>
+            <div class="article-container">
+              <article class="article2">
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Javascript</h3>
+                </div>
+              </article>
+              <article class="article2">
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML/CSS</h3>
+                </div>
+              </article>
+              <article class="article2">
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                </div>
+              </article>
+              <article class="article2">
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MongoDB</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              
+              <img
+                src="./assets/project1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+              <p> This is an interactive representation of my skills, experience, and achievements.
+                 I designed and developed this resume using JavaScript, HTML, and CSS to give a modern, 
+                 engaging way of showcasing my professional journey.<br>
+                ( Hint : It is what you are surfing through right now.)
+                .</p>
+            </div>
+            <h2 class="experience-sub-title project-title">My Portfolio</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/', '_blank');"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/', '_blank');"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+              <p> I developed this weather app using React.js, a popular JavaScript library for building user interfaces. The app fetches real-time weather data from an external API and displays it in a clean, user-friendly format.</p>
+            </div>
+            <h2 class="experience-sub-title project-title">Weather App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/', '_blank');"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/', '_blank');"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#events'"
+      />
+    </section>
+
+    <section id="events">
+      <h1 class="title">My Events &#10084;</h1>
+      <div class="experience-details-container">
+        <div class="event-containers-1">
+          <div class="event-container">
+            <p class="section__text__p1">Riviera'24</p>
+            <h3 class="event-title">Nukkad Natak </h3>
+            <p class="section__text__p2">2nd Prize Winner</p>
+            <div class="event-container-3">
+              <div class="event-pic-1">
+                <img 
+                  src="./assets/natak.jpeg" 
+                  alt="Rupanjana Choudhury profile picture" 
+                  class="about-pic"
+                />
+                </div>
+                <p class = "event-text"> This was our team for Street Play, Riviera'24. 
+                  This experience really helped me step out of my comfort zone, 
+                  understand the art of drama and be proud of the consistency we put 
+                  which we were rewareded for.</p>
+            </div>
+          </div>
+
+          <div class="event-container">
+            <p class="section__text__p1">ic-ETITE'24</p>
+            <h3 class="event-title">BOLT'24 Hackathon</h3>
+            <p class="section__text__p2">Coordinator</p>
+            <div class="event-container-3">
+              <div class="event-pic">
+                <img 
+                  src="./assets/bolt2.png" 
+                  alt="Rupanjana Choudhury profile picture" 
+                  class="about-pic"
+                />
+                </div>
+                <p class = "event-text"> Overseeing 800+ participants, I managed event logistics, ensured smooth operations, 
+                  and facilitated a dynamic environment, enhancing participant 
+                  engagement and fostering innovative
+                  problem-solving and teamwork.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#events2'"
+    />
+    </section>
+    <section id="events2">
+      <div class="experience-details-container">
+        <div class="event-containers-1">
+          <div class="event-container">
+            <p class="section__text__p1">graVITas'22 </p>
+            <h3 class="event-title">Purchase and Sales </h3>
+            <p class="section__text__p2">Coordinator</p>
+            <div class="event-container-3">
+              <div class="event-pic">
+                <img 
+                  src="./assets/gravitas.png" 
+                  alt="Rupanjana Choudhury profile picture" 
+                />
+                <img 
+                  src="./assets/gravitas2.png" 
+                  alt="Rupanjana Choudhury profile picture" 
+                  class="about-pic-2"
+                />
+                
+              </div>
+                <p class = "event-text-p"> Managed transactions, organized inventory, and facilitated customer interactions for the
+                  purchase and sale event, ensuring smooth operations, effective merchandise sales, and contributing significantly 
+                  to the event’s overall success.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <p class="section__text__p1">I love cats , so here are a few ! Do contact me for more 	&#9829;<br><br> </p>
+      <div class="contact-pic">
+        <img 
+          src="./assets/cat.jpeg" 
+          alt="Rupanjana Choudhury profile picture" 
+          class="contact__pic-container"
+        />
+        <img 
+          src="./assets/cat3.jpeg" 
+          alt="Rupanjana Choudhury profile picture" 
+          class="contact__pic-container"
+        />
+        <img 
+          src="./assets/cat2.jpeg" 
+          alt="Rupanjana Choudhury profile picture" 
+          class="contact__pic-container"
+        />
+      </div>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:rupp1510@gmail.com">rupp1510@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/rupanjanac/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+      <img
+      src="./assets/arrow2.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#profile'"
+    />
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Rupanjana Choudhury. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
