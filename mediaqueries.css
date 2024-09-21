@@ -7,7 +7,7 @@
     flex-wrap: wrap;
   }
   #contact,
-  #projects,#events,#events2 {
+  #projects, #events, #events2 {
     height: fit-content;
   }
 }
